@@ -23,7 +23,7 @@ class CategoryController extends Controller
         $data_ca->save();
 
         $notification = array(
-            'message' => 'Category created Successfully',
+            'message' => 'Category created Successfully ầdgsfhj',
             'alert-type' => 'success'
         );
         return redirect()->route('admin.index.category')->with($notification);
